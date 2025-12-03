@@ -1,0 +1,24 @@
+{
+  "name": "railway-chat-app",
+  "version": "1.0.0",
+  "description": "Permanent chat app on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "sqlite3": "^5.1.6",
+    "multer": "^1.4.5-lts.1",
+    "cron": "^2.3.1",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["chat", "railway", "realtime"],
+  "author": "You",
+  "license": "MIT"
+}
